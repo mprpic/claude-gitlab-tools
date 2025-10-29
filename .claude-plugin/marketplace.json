@@ -1,0 +1,22 @@
+{
+  "name": "claude-gitlab-tools",
+  "owner": {
+    "name": "Martin Prpič",
+    "email": "mprpic@redhat.com"
+  },
+  "metadata": {
+    "description": "GitLab automation and debugging tools for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "gitlab-ci-debugger",
+      "description": "Debug and monitor GitLab CI pipelines with automatic log retrieval and analysis",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/gitlab-ci-debugger"
+      ]
+    }
+  ]
+}
